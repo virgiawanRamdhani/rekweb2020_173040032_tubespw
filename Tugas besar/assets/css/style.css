@@ -1,0 +1,35 @@
+.jumbotron img {
+	width:  300px;
+	border: 5px solid black;
+	margin-top: 100px;
+	box-shadow: 1px 1px 1px rgba(1,1,1,2);
+}
+
+.jumbotron{
+	height: 670px;
+	background-position: center;
+	background-image: url('../img/car.jpeg');
+	background-attachment: fixed;
+	background-size: cover;
+	color: #eaeaea
+}
+
+.jumbotron h1, .jumbotron p{
+	text-shadow: 1px 1px 1px rgba(1,1,1,2);
+	margin-top: center;
+}
+
+hr {
+	width: 300px;
+	border-top: 4px solid #999;
+}
+section {
+	min-height: 600px;
+}
+.portfolio {
+	background-color: #eee;
+	min-height: 800px;
+}
+.contact{
+	min-height: 900px;
+}
